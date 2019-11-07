@@ -78,7 +78,7 @@ body {
 header {
 	width: 100%;
 	padding: 10px 20px 60px 20px;
-	boder-bottom: 1px solid #000;
+	border-bottom: 1px solid #000;
 	padding-top: 60px;
 }
 
@@ -101,23 +101,31 @@ main {
 
 .boxes {
 	display: flex;
-	border: 5px solid pink;
+	border: 3px solid pink;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: flex-start;
-
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
 }
 
 .box {
 	width: 48%;
 	border: 2px solid black;
 	margin-left: 0px;
+	margin-top: 30px;
 	background: lightgray;
 }
 
+.button {
+	border: 0.5px solid black;
+	margin-top: 50%;
+	background: white;
+	margin: 2%;
+	padding: 1%
+}
 .facts_list {
 	border: 2px solid magenta;
-	width: 48%;
+	width: 49%;
 }
 
 .some_facts {
@@ -128,6 +136,13 @@ main {
 
 .facts {
 	margin: 40px;
+}
+
+ul {
+	list-style: bullet
+	margin-left: 30px;
+	padding: 20%;
+	padding-top: 0;
 }
 
 footer {
