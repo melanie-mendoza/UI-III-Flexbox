@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +64,37 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+#jacket {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+body {
+	border: 5px solid goldenrod;
+	margin: 7%;
+}
+
+.pilot {
+	color: lightgray;
+	font-size: 20px;
+	padding: 1%;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.logo {
+	display: flex;
+	justify-content: flex-end {
+	margin: 7%
+	padding: 10%;
+	border: 10%;
+}
+
+main {
+	margin: 10%;
+	padding:
+}
