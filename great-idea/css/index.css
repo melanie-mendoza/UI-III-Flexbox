@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-	border: 5px solid goldenrod;
 	margin: 7%;
 	height: 1400px;
 }
@@ -86,6 +85,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
+	color: lightgray;
 }
 
 .services-header-img {
@@ -101,7 +101,6 @@ main {
 
 .boxes {
 	display: flex;
-	border: 3px solid pink;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	padding-top: 1.5%;
@@ -124,13 +123,12 @@ main {
 	padding: 1%
 }
 .facts_list {
-	border: 2px solid magenta;
 	width: 49%;
+	margin-top: 10px;
 }
 
 .some_facts {
 	display: flex;
-	border: 5px solid purple;
 	flex-wrap: wrap;
 }
 
