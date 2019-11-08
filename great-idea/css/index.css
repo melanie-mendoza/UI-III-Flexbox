@@ -53,7 +53,7 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -64,3 +64,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+#jacket {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+body {
+	margin: 7%;
+	height: 1400px;
+}
+
+header {
+	width: 100%;
+	padding: 10px 20px 60px 20px;
+	border-bottom: 1px solid #000;
+	padding-top: 60px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	color: lightgray;
+}
+
+.services-header-img {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+main {
+	margin-top: 2%;
+	width: 100%;
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
+
+.box {
+	width: 48%;
+	border: 2px solid black;
+	margin-left: 0px;
+	margin-top: 30px;
+	background: lightgray;
+}
+
+.button {
+	border: 0.5px solid black;
+	margin-top: 50%;
+	background: white;
+	margin: 2%;
+	padding: 1%
+}
+.facts_list {
+	width: 49%;
+	margin-top: 10px;
+}
+
+.some_facts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.facts {
+	margin: 40px;
+}
+
+ul {
+	list-style: bullet
+	margin-left: 30px;
+	padding: 20%;
+	padding-top: 0;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
